@@ -10,6 +10,7 @@ The data is presented in CSV format and can be directly imported in R and Weka.
 ```Projects_list.csv```: The summary of all the raw projects.
 
 ```Dataset.csv```: The list of projects with their metrics values and identified smells.
+
 ```Metrics formulation.pdf```: The formulation of the new used metrics
 
 #### Developer Social Network metrics  
