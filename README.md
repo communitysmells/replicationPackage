@@ -1,6 +1,6 @@
 # Learning to Detect Community Smells
 
-This repository is a companion page for our submission "Learning to Detect Community Smells".
+This repository is a companion page for our TETCI submission "Learning to Detect Community Smells".
 
 It contains all the material required to replicate our analysis, including (i) the raw input data (ii) the list of studied projects with their repository links in GitHub, and (iii) the metrics formulation with their equations. Some additional data are not included in the paper due to space limitations, are also provided.
 
@@ -10,6 +10,7 @@ The data is presented in CSV format and can be directly imported in R and Weka.
 ```Projects_list.csv```: The summary of all the raw projects.
 
 ```Dataset.csv```: The list of projects with their metrics values and identified smells.
+```Metrics formulation.pdf```: The formulation of the new used metrics
 
 #### Developer Social Network metrics  
 
