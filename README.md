@@ -4,13 +4,14 @@ This repository is a companion page for our submission "Learning to Detect Commu
 
 It contains all the material required to replicate our analysis, including (i) the raw input data (ii) the list of studied projects with their repository links in GitHub, and (iii) the metrics formulation with their equations. Some additional data are not included in the paper due to space limitations, are also provided.
 
-## Data description : The data is presented in CSV format and can be directly imported in R and Weka.
+### Data description : 
+The data is presented in CSV format and can be directly imported in R and Weka.
 
 ```Projects_list.csv```: The summary of all the raw projects.
 
 ```Dataset.csv```: The list of projects with their metrics values and identified smells.
 
-### Developer Social Network metrics  
+#### Developer Social Network metrics  
 
 ```NoD ```: Number of developers
 
@@ -27,7 +28,7 @@ It contains all the material required to replicate our analysis, including (i) t
 ```RSD``` : Ratio of sponsored developers
 
 
-### Social Network Analysis metrics 
+#### Social Network Analysis metrics 
 
 ```DC``` : Graph Degree centrality
 
@@ -38,7 +39,7 @@ It contains all the material required to replicate our analysis, including (i) t
 ```ND``` : Network Density
 
 
-###  Community metrics 
+#####  Community metrics 
 
 ```NC``` : Number of communities
 
@@ -46,7 +47,7 @@ It contains all the material required to replicate our analysis, including (i) t
 
 ```RDC``` : Ratio of developers per community
 
-###  Geographic Dispersion metrics 
+####  Geographic Dispersion metrics 
 
 ```TZ``` : Number of time zones
 
@@ -55,7 +56,7 @@ It contains all the material required to replicate our analysis, including (i) t
 ```RDZ``` : Ratio of developers per time zone
 
 
-###  Formality metrics 
+####  Formality metrics 
 
 ```NR``` : Number of Releases in a project
 
@@ -64,7 +65,7 @@ It contains all the material required to replicate our analysis, including (i) t
 ```FN``` : Formal network
 
 
-###  Truck Number metrics 
+####  Truck Number metrics 
 
 ```BFN``` : Bus Factor Number
 
